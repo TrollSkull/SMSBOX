@@ -22,12 +22,6 @@ $ pip install -r requirements.txt
 $ python smsbox.py
 ```
 
-## USAGE
-    Usage: python smsbox.py
-        [1] Message         -   Send a message!
-        [2] Update script   -   Script version!
-        [3] Exit            -   Close script!
-
 ### LICENCE
 
 **[MIT License © SMSBOX](https://github.com/TrollSkull/SMSBOX/blob/main/LICENSE)**
