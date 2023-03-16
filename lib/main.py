@@ -48,7 +48,7 @@ class Main:
             print(response_data['error'])
 
         else:
-          print(Colors.OK + "\n[SMSBOX]" + Colors.RESET + " The message has been sent successfully!\n")
+          print(Colors.OK + "\n[SMSBOX]" + Colors.RESET + " The message has been sent successfully!")
 
       elif option == "2":
         CheckVersion()
