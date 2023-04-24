@@ -1,4 +1,4 @@
-import sys, os, requests #, datetime
+import sys, os, requests, datetime
 
 class Colors:
     OK = '\033[92m'
@@ -9,8 +9,11 @@ class Colors:
     GRAY = '\033[1;30m'
 
 class Utils:
-    # NOW = datetime.datetime.now()
-    # DATE = NOW.strftime("[%y-%m-%d]") 
+    NOW = datetime.datetime.now()
+    DATE = NOW.strftime("[%y-%m-%d]") 
+    TIME = NOW.strftime("%H:%M")
+    DATE_FILE = NOW.strftime("/%y-%m-%d")
+    DATE_LOG = NOW.strftime("%y-%m-%d")
 
     TOOL_VERSION = open("./lib/core/version", "r").read()
     GIT_VERSION = requests.get("https://raw.githubusercontent.com/TrollSkull/SMSBOX/main/lib/core/version").text  

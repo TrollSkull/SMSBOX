@@ -9,5 +9,5 @@ def CheckWifi():
         conexion.close()
 
     except error:
-        print(Colors.FAIL + "\n[sms_sender] " + Colors.RESET + "Check your internet connection.")
+        print(Colors.FAIL + "\n[SMSBOX] " + Colors.RESET + "Check your internet connection.")
         sys.exit(1)

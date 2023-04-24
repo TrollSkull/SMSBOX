@@ -7,7 +7,7 @@ URL = "https://raw.githubusercontent.com/TrollSkull/SMSBOX/master/"
 
 def Update():
     FILES = ['smsbox.py', 'lib/core/wifi.py', 'lib/core/updater.py', 'lib/core/version',
-             'lib/core/utils.py', 'lib/main.py', 'lib/core/exceptions.py']
+             'lib/core/utils.py', 'lib/main.py', 'lib/core/exceptions.py', 'requirements.txt']
     
     for FL in FILES:
         DATA = urllib.request.urlopen(URL + FL).read()
