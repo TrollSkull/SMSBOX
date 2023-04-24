@@ -19,8 +19,6 @@ $ apt install -y git python
 $ git clone https://github.com/TrollSkull/SMSBOX
 
 $ cd SMSBOX
-    
-$ pip install -r requirements.txt
 
 $ python smsbox.py
 ```
