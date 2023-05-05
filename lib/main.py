@@ -1,8 +1,6 @@
 class Main:
   try:
-    import requests
-    import time
-    import sys
+    import requests, time, sys
 
     from lib.core.utils import (
           Banner, Colors,

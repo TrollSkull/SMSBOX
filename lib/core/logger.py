@@ -1,11 +1,14 @@
-import logging, os
+import logging, sys, os
 
 from lib.core.utils import Utils
 from lib.core.wifi import CheckWifi
 
 class Logger:
     def logged(message, number, response):
-        log_dir = os.getcwd() + '\logs'
+        if os.system == "win32":
+            log_dir = os.getcwd() + '\logs'
+        else:
+            log_dir = os.getcwd() + '/logs'
 
         if os.path.isfile(log_dir + Utils.DATE_FILE + ".log") == True:
             logging.info('\n')

@@ -1,15 +1,13 @@
 #!/usr/bin/env python3
 
-__name__ = 'SMSBOX'
 __author__ = 'TrollSkull'
-__github__ = 'https://github.com/TrollSkull'
-__version__ = '1.1'
+__version__= '1.1'
 
-"""
+'''
 This script uses the Textbelt API to work
 Textbelt is an API that allows us to send
 a single message per day on a single IP.
-"""
+'''
 
 try:
     import requests
