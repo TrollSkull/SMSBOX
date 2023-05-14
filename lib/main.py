@@ -40,7 +40,7 @@ class Main:
           'key': 'textbelt'})
         
           # If you have a Textbelt KEY you can put it here.
-          # You can get a KEY visiting "https://textbelt.com/purchase/".
+          # You can buy a KEY visiting "https://textbelt.com/purchase/".
         
         response_data = send_message.json()
 
