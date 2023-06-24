@@ -1,9 +1,10 @@
-<p align="left">
+<div align="center">
 <img src="/.assets/logo.png" width="500" height="150"/>
 
 [![Version](https://img.shields.io/badge/Version-1.2-green)]()
 [![Bash](https://img.shields.io/badge/Made%20with-Python-blue)]()
 [![License](https://img.shields.io/badge/License-MIT-yellow)]()
+</div>
 
 SMSBOX is a tool to send anonymous messages, written by **[TrollSkull](https://github.com/TrollSkull)**, this script uses
 the **[Textbelt API](https://textbelt.com)** to work, Textbelt is an API that allows us to send a single message per day on a single IP.
