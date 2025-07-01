@@ -6,6 +6,9 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow)]()
 </div>
 
+> [!WARNING]
+> This repository is no longer mantained.
+
 SMSBOX is a tool to send anonymous messages, written by **[TrollSkull](https://github.com/TrollSkull)**, this script uses
 the **[Textbelt API](https://textbelt.com)** to work, Textbelt is an API that allows us to send a single message per day on a single IP.
 
